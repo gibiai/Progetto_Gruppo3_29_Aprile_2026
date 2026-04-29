@@ -1,5 +1,4 @@
-# 🔧 Gestione Intelligente di un'Officina di Elettrodomestici
-
+🔧 Gestione Intelligente di un'Officina di Elettrodomestici
 ---
 
 ## 👥 Team Project Collaboration
