@@ -1,6 +1,7 @@
- Gestione Intelligente di un'Officina di Elettrodomestici
+
 ---
-## 👥 Team Project Collaboration
+# 🔧 Gestione Intelligente di un'Officina di Elettrodomestici
+### 👥 Team Project Collaboration
 Progetto sviluppato in gruppo per applicare i principi della Programmazione Orientata agli Oggetti attraverso collaborazione e suddivisione logica dei compiti.
 
 **Team Members:**
