@@ -10,16 +10,6 @@ Progetto sviluppato in gruppo per applicare i principi della Programmazione Orie
 * Vincenzo Cantarello
 
 ---
-## 👥 Team Project Collaboration**
-
-Progetto sviluppato in gruppo per applicare i principi della Programmazione Orientata agli Oggetti attraverso collaborazione e suddivisione logica dei compiti.
-
-**Team Members:**
-- Davide Bruseghin
-- Gabriele De Carlo
-- Vincenzo Cantarello
-
----
 
 ## 🎯 Obiettivi del Progetto
 
