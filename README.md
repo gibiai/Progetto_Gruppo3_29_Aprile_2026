@@ -79,16 +79,29 @@ Creazione della classe Officina per:
 
 ⸻
 
-📂 Project Structure
+## 📂 Project Structure
 
-Setup | Core Classes
+- `elettrodomestico.py` — Classe astratta base (Davide)
+- `lavatrice.py` — Classe derivata Lavatrice (Gabriele)
+- `frigorifero.py` — Classe derivata Frigorifero (Gabriele)
+- `forno.py` — Classe derivata Forno (Gabriele)
+- `ticket_riparazione.py` — Classe TicketRiparazione (Vincenzo)
+- `officina.py` — Classe Officina (Vincenzo)
+- `main.py` — Entry point
 
-—
--
--
--
--
--
+## ⚙️ Setup
+
+- Nessuna dipendenza esterna necessaria
+- Eseguire con `python3 main.py`
+
+## 🧱 Core Classes
+
+- `Elettrodomestico` — classe astratta con getter/setter e controlli
+- `Lavatrice` — sottoclasse con capacità e giri centrifuga
+- `Frigorifero` — sottoclasse con litri e freezer
+- `Forno` — sottoclasse con tipo alimentazione e ventilato
+- `TicketRiparazione` — gestione ticket con preventivo variadic
+- `Officina` — gestione lista ticket e statistiche
 
 ⸻
 
