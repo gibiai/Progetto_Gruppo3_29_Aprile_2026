@@ -6,8 +6,8 @@ Progetto sviluppato in gruppo per applicare i principi della Programmazione Orie
 
 **Team Members:**
 * Davide Bruseghin
-* Gabriele De Carlo
 * Vincenzo Cantarello
+* Gabriele De Carlo
 
 ---
 
