@@ -39,7 +39,7 @@ Progetto sviluppato in gruppo per applicare i principi della Programmazione Orie
 - `classi_derivate.py` — Classi derivate Lavatrice, Frigorifero, Forno (Gabriele)
 - `ticket_riparazione.py` — Classe TicketRiparazione (Vincenzo)
 - `officina.py` — Classe Officina (Vincenzo)
-- `main.py` — Entry point (Gabriele)
+- `main.py` — Entry point (Gabriele - Davide - Vincenzo)
 
 ## ⚙️ Setup
 
