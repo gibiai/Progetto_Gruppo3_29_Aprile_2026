@@ -1,12 +1,12 @@
 # Entry point del programma
 # il main non definisce classi — le importa e le usa
 # importo tutto ciò che mi serve da ogni modulo (ciascun singolo file .py) del progetto
-from elettrodomestico import Elettrodomestico       # classe astratta base
-from lavatrice import Lavatrice                     # mia sottoclasse
-from frigorifero import Frigorifero                 # mia sottoclasse
-from forno import Forno                             # mia sottoclasse
-from ticket_riparazione import TicketRiparazione    # classe di Vincenzo
-from officina import Officina                       # classe di Vincenzo
+from elettrodomestico import Elettrodomestico       #  classe astratta base
+from lavatrice import Lavatrice                     #  sottoclasse
+from frigorifero import Frigorifero                 #  sottoclasse
+from forno import Forno                             #  sottoclasse
+from ticket_riparazione import TicketRiparazione    #  sottoclasse
+from officina import Officina                       #  sottoclasse
 
 # creo gli oggetti elettrodomestico
 # nota: non posso scrivere Elettrodomestico(...) — è astratta, Python darebbe errore
