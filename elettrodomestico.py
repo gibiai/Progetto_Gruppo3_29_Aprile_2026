@@ -16,7 +16,7 @@ class Elettrodomestico(ABC): # classe astratta
     @marca.setter
     def marca(self, valore):
         # Controllo: stringa non vuota
-        if isinstance(valore, str) and valore.strip():
+        if isinstance(valore, str) and valore.strip(): # strip() per rimuovere spazi bianchi all'inizio e alla fine
             self.__marca = valore.strip()
         else:
             raise ValueError("Errore: La marca deve essere una stringa valida.")
@@ -41,9 +41,9 @@ class Elettrodomestico(ABC): # classe astratta
     def anno_acquisto(self, valore):
         if not isinstance(valore, int):
             raise ValueError("Errore: L'anno di acquisto deve essere un intero.")
-        anno_attuale = datetime.now().year
+        anno_attuale = datetime.now().year # otteniamo l'anno attuale usando datetime
         if valore <= anno_attuale:
-            self.__anno_acquisto = valore
+            self.__anno_acquisto = valore # se l'anno è valido, lo assegniamo
         else:
             print(f"Errore: L'anno {valore} è nel futuro!")
             self.__anno_acquisto = anno_attuale
@@ -53,7 +53,7 @@ class Elettrodomestico(ABC): # classe astratta
         return self.__guasto
 
     @guasto.setter
-    def guasto(self, valore):
+    def guasto(self, valore): # controllo: stringa non vuota, altrimenti "Guasto non specificato"
         if isinstance(valore, str) and valore.strip():
             self.__guasto = valore.strip()
         else:
