@@ -2,9 +2,7 @@
 # il main non definisce classi — le importa e le usa
 # importo tutto ciò che mi serve da ogni modulo (ciascun singolo file .py) del progetto
 from elettrodomestico import Elettrodomestico       #  classe astratta base
-from lavatrice import Lavatrice                     #  sottoclasse
-from frigorifero import Frigorifero                 #  sottoclasse
-from forno import Forno                             #  sottoclasse
+from classi_derivate import Lavatrice, Frigorifero, Forno # sottoclassi
 from ticket_riparazione import TicketRiparazione    #  sottoclasse
 from officina import Officina                       #  sottoclasse
 
